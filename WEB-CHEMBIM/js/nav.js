@@ -33,7 +33,7 @@ document.writeln(`
                   >
                 </li>
                 <li>
-                  <a href="../html//3-CovalentBond.html#ite-03" class="scrollto"
+                  <a href="../html/3-CovalentBond.html#ite-03" class="scrollto"
                     >Exercise 5.3</a
                   >
                 </li>
