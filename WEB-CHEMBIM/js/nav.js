@@ -59,7 +59,7 @@ document.writeln(`
             <a class="navigation-link" href="../html/9-Usermanual.html">USER MANUAL</a>
           </li>
           <li class="nav-item">
-            <a class="navigation-link" href="../index.html#about-me" class="scrollto">ABOUT ME</a>
+            <a class="navigation-link" href="../html/index.html#about-me" class="scrollto">ABOUT ME</a>
           </li>
         </ul>
       </div>
