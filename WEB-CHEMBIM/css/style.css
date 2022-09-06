@@ -1,0 +1,254 @@
+body {
+  background-color: #e2d5c0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Righteous", "Impact", "Haettenschweiler", "Arial Narrow Bold",
+    sans-serif;
+}
+
+p {
+  font-family: "Noto Sans";
+  font-size: 2rem;
+}
+
+/* Navigatio Bar */
+nav {
+  width: 100%;
+  min-height: 100px;
+  background-color: #e2d5c0;
+  position: static;
+  padding: 40px 0px 40px 0px;
+  margin: 50px 0px 50px 0px;
+}
+
+.nav-content {
+  background-image: url("../assets/svg/NavBar2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1500px 80px;
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-icon {
+  width: 100px;
+  color: black;
+}
+
+.nav-content .navbar-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1300px;
+}
+
+.nav-content .navbar-list li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  color: #1a3c40;
+  padding-top: 8px;
+}
+
+.nav-content .navbar-list li a {
+  text-decoration: none;
+  color: #1a3c40;
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.nav-content .navbar-list li a:hover {
+  background-color: #de4948;
+  color: #e2d5c0;
+  display: block;
+}
+
+.nav-logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+/* Index Content */
+#intro-page {
+  margin: 20px 20px 10px 100px;
+}
+
+#indexTopic {
+  font-size: 100px;
+  margin-top: 50px;
+}
+
+#index-paragraph {
+  padding: 30px 0px 0px 5px;
+  line-height: 30px;
+  width: 70%;
+  font-size: 1rem;
+}
+
+#indexbodymovin {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 40px;
+}
+
+.retroButton {
+  background-image: url(../assets/svg/retroButtonGreen.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 140px;
+  height: 70px;
+  border: none;
+  background-color: transparent;
+  margin: 20px 0px;
+}
+
+.retroButton:hover {
+  background-image: url(../assets/svg/retroButtonRed.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 140px;
+  height: 70px;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.retroButton > span {
+  color: antiquewhite;
+  font-family: "Righteous";
+  font-size: 20px;
+}
+
+/* Exercise DropDown */
+.exercise-dropdown {
+  z-index: 100;
+  display: none;
+  width: 145px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+.exercise-dropdown.active {
+  display: block;
+}
+
+.exercise-dropdown > ul {
+  padding: 0px;
+  background-color: #ede6db;
+}
+
+.exercise-dropdown > ul > li {
+  padding: 20px 0px;
+  height: 44px;
+}
+
+.exercise-dropdown > ul > li:hover {
+  background-color: #de4948;
+  color: #ede6db;
+}
+
+.exercise-dropdown > ul > li > a {
+  cursor: pointer;
+}
+
+#dropdown-icon {
+  display: inline-block;
+  transition: all 0.1s ease-in-out;
+}
+
+#dropdown-icon.active {
+  transform: rotate(180deg);
+}
+
+#exercise-btn {
+  cursor: pointer;
+}
+
+.sec-01 {
+  padding: 0 0 150px 0;
+}
+
+.sec-02 {
+  padding: 150px 0px;
+  background-color: #c0d8c0;
+}
+
+.sec-02 h6 {
+  font-family: "Noto Sans";
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+}
+
+.sec-03 {
+  padding: 80px 0px;
+}
+
+.sec-03 h6 {
+  font-family: "Noto Sans";
+  font-weight: 900;
+  font-size: 50px;
+  text-align: left;
+}
+
+.sec-03 p {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  color: #727272;
+}
+
+.sec-03-bodymovin-01 {
+  width: 80%;
+  float: left;
+}
+
+.sec-03-bodymovin-02 {
+  width: 80%;
+  float: left;
+}
+
+#sec-03-content {
+  display: flex;
+  align-items: center;
+}
+
+.bullet-wrapper {
+  display: flex;
+  align-items: flex-start;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  color: #727272;
+}
+
+.tick-bullet {
+  width: 20px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+#row-margin {
+  border-bottom: 2px solid #727272;
+}
+
+.row-border {
+  border-bottom: 3px solid #1a3c40;
+}
+
+#sec-04 {
+  background-color: #c0d8c0;
+}

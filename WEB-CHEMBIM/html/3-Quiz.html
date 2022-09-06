@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="../js/header.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- ***********************Navigation Bar******************************** -->
+    <script src="../js/nav.js" type="text/javascript"></script>
+
+    <!-- ***********************Side Bar******************************** -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-auto">
+                <div class="sidebar">
+                    <div class="lesson-icon">
+                        <img src="../assets/svg/Lesson-icon.svg" width="200px" height="50px">
+                    </div>
+                    <script src="../js/sideBar.js" type="text/javascript"></script>
+                </div>
+            </div>
+
+            <!-- ***********************Content******************************** -->
+            <!-- Modal Box -->
+            <div class="modal-container" id="modal-container">
+                <img src="../assets/svg/periodic-table.svg" width="900px">
+                <h1 id="modal-close-button">+</h1>
+            </div>
+
+            <div class="col">
+                <div class="title-container">
+                    <div class="title">
+                        <h1>Interactive Quiz 03</h1>
+                    </div>
+                </div>
+
+                <div class="content-container">
+                    <div class="content">
+                        <div class="flex-content justify-frame">
+                            <iframe style="max-width:100%" src="https://wordwall.net/embed/1975bdc0de654de68b00ec1c1236aac8?themeId=21&templateId=69&fontStackId=0"
+                            frameborder="0" allowfullscreen></iframe>
+                        </div>                   
+                    </div>
+                </div>
+                <div class="quiz-back-btn-container">
+                    <div class="quiz-back-btn">
+                        <a href="../html/8-Quizzes.html"><img src="../assets/svg/Buttons/backBtn.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="../js/sideMenu.js" type="text/javascript"></script>
+    
+
+    
+    <script>
+        let modalBtn001 = document.querySelector('#modal-button-01');
+        let modal001 = document.querySelector('#modal-001');
+        modalBtn001.onclick = function () {
+            modal001.classList.toggle("active");
+            console.log("cliked")
+        };
+
+        let modalBtn002 = document.querySelector('#modal-button-02');
+        let modal002 = document.querySelector('#modal-002');
+        modalBtn002.onclick = function () {
+            modal002.classList.toggle("active");
+            console.log("cliked")
+        }
+
+        // Periodic Table Modal Box
+        let periodic_table_button = document.querySelector("#periodic-table-button");
+        let modal_container = document.querySelector("#modal-container");
+        let modal_close_button = document.querySelector("#modal-close-button");
+
+        periodic_table_button.addEventListener("click", () => {
+            modal_container.classList.add("show");
+            console.log("clicked")
+        })
+
+        modal_close_button.addEventListener("click", () => {
+            modal_container.classList.remove("show");
+            console.log("clicked")
+        })
+    </script>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="../js/Lottie.js" type="text/javascript"></script>
+    <script src="../js/app.js" type="text/javascript"></script>
+    
+</body>
+
+</html>

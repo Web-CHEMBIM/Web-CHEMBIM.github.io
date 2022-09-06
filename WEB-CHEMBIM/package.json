@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bodymovin": "^4.13.0",
+    "bootstrap": "^5.2.0"
+  },
+  "name": "web-chembim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
